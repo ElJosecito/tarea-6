@@ -4,10 +4,10 @@
     "slug": "tarea-6",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/Josecito.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/Josecito.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eljosecito.tarea6"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/assets/Josecito.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d09fb001-8c75-4b5d-9942-08b010e0a4cd"
+      }
     }
   }
 }
